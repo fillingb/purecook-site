@@ -1,0 +1,239 @@
+/home/ubuntu/niche-site/editor.py:2: DeprecationWarning: 'cgi' is deprecated and slated for removal in Python 3.13
+  import cgi, subprocess, os, glob, json
+212.107.30.66 - - [09/Mar/2026 13:19:27] "POST /upload HTTP/1.1" 403 -
+212.107.30.66 - - [09/Mar/2026 13:19:30] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:31] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:31] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:31] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:31] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:32] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:32] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:32] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:36] "POST /login HTTP/1.1" 302 -
+212.107.30.66 - - [09/Mar/2026 13:19:36] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:37] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:37] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:37] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+[main 6646ceb] Upload asset: kettle.webp
+ 2 files changed, 14 insertions(+)
+ create mode 100644 assets/kettle.webp
+To github.com:fillingb/purecook-site.git
+   88e6f31..6646ceb  main -> main
+212.107.30.66 - - [09/Mar/2026 13:19:58] "POST /upload HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:59] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:59] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:59] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:19:59] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:01] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:02] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:02] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:02] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:06] "GET /get_content?file=articles/best-glass-kettles.html HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:09] "GET /get_content?file=index.html HTTP/1.1" 200 -
+[main faf12dd] Updated: index.html
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+To github.com:fillingb/purecook-site.git
+   6646ceb..faf12dd  main -> main
+212.107.30.66 - - [09/Mar/2026 13:20:19] "POST /publish HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:20] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:20] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:20] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:20:20] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:22:51] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:22:51] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:22:55] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:22:56] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:22:56] "GET /get_content?file=articles/best-non-toxic-air-fryers.html HTTP/1.1" 200 -
+[main 43e47a5] Updated: articles/best-non-toxic-air-fryers.html
+ 2 files changed, 125 insertions(+), 111 deletions(-)
+To github.com:fillingb/purecook-site.git
+   faf12dd..43e47a5  main -> main
+212.107.30.66 - - [09/Mar/2026 13:24:16] "POST /publish HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:24:16] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:24:16] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:24:16] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:24:17] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:24:21] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:24:22] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:24:22] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:24:22] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:26:22] "GET /get_content?file=articles/ceramic-vs-granite-pans.html HTTP/1.1" 200 -
+[main f7cbf0c] Updated: articles/ceramic-vs-granite-pans.html
+ 2 files changed, 109 insertions(+), 95 deletions(-)
+To github.com:fillingb/purecook-site.git
+   43e47a5..f7cbf0c  main -> main
+212.107.30.66 - - [09/Mar/2026 13:27:00] "POST /publish HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:27:01] "GET /favicon.ico HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:27:02] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/aptosSDK.js HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:27:02] "GET / HTTP/1.1" 200 -
+212.107.30.66 - - [09/Mar/2026 13:27:02] "GET /chrome-extension://lgmpcpglpngdoalbgeoldeajfclnhafa/inpage.js HTTP/1.1" 200 -
+59.97.182.4 - - [09/Mar/2026 16:59:13] "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('199.45.154.146', 48726)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+199.45.154.146 - - [09/Mar/2026 17:35:01] "GET / HTTP/1.1" 200 -
+199.45.154.146 - - [09/Mar/2026 17:35:05] code 400, message Bad request version ("Ü*V²Y\\x8c'")
+199.45.154.146 - - [09/Mar/2026 17:35:05] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x06C®/ëÊ¤/V}{\x8aøBPÃC8¾\x12ø\x0bFºÇjr-ª\x0dk\x88 Ü*V²Y\x8c'" 400 -
+199.45.154.146 - - [09/Mar/2026 17:35:05] "GET / HTTP/1.1" 200 -
+199.45.154.146 - - [09/Mar/2026 17:35:05] code 505, message Invalid HTTP version (2.0)
+199.45.154.146 - - [09/Mar/2026 17:35:05] "PRI * HTTP/2.0" 505 -
+199.45.154.146 - - [09/Mar/2026 17:35:05] "GET /favicon.ico HTTP/1.1" 200 -
+199.45.154.146 - - [09/Mar/2026 17:35:10] code 400, message Bad request version ('À\\x14À')
+199.45.154.146 - - [09/Mar/2026 17:35:10] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x93Ä\x1f\x89ÜL´µ\x9aø\x9fúòJ2?K 6\x17|\x81öÛÃ³?\x1c\x96ò\x9cÝ \x19Ãê\x91\x1f\x18\x1d9\x83¼ì[ù³B³¯Ý\x0dºâ2\x0b{å\x1a¤<<\x99ós\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" 400 -
+199.45.154.146 - - [09/Mar/2026 17:35:10] "GET /security.txt HTTP/1.1" 200 -
+199.45.154.146 - - [09/Mar/2026 17:35:11] "GET /favicon.ico HTTP/1.1" 200 -
+199.45.154.146 - - [09/Mar/2026 17:35:11] code 400, message Bad request version ('À\\x14À')
+199.45.154.146 - - [09/Mar/2026 17:35:11] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ö_\x80YHíU\x0f\x8d\x80ckÊ\x09\x88x°(Ü5-!Fêêæîs32ì: .òQ\x1dË·\x00Ü\x02ÎFµ\x9c ê3Ï\x80¯«\x9a7s\x17Á\x81s(ÒcË\x06\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" 400 -
+199.45.154.146 - - [09/Mar/2026 17:35:11] "GET /_t0r1wlg3u1 HTTP/1.1" 200 -
+199.45.154.146 - - [09/Mar/2026 17:35:12] "GET /favicon.ico HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:20:32] "GET / HTTP/1.0" 200 -
+216.180.246.182 - - [09/Mar/2026 18:21:20] "GET / HTTP/1.0" 200 -
+216.180.246.182 - - [09/Mar/2026 18:22:02] "GET / HTTP/1.0" 200 -
+216.180.246.182 - - [09/Mar/2026 18:22:42] code 400, message Bad request version ('\\x80')
+216.180.246.182 - - [09/Mar/2026 18:22:42] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x10\x87\x10\x1d\x7f1\x9aã\x1eõÑ \x80" 400 -
+216.180.246.182 - - [09/Mar/2026 18:22:46] "GET / HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:22:48] "GET /manage/account/login HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:22:50] "GET /admin/index.html HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:22:53] "GET /index.html HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:22:55] "GET /+CSCOE+/logon.html HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:22:57] "GET /cgi-bin/login.cgi HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:22:58] "GET /login.htm HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:23:00] "GET /login.html HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:23:04] "GET /login.jsp HTTP/1.1" 200 -
+216.180.246.182 - - [09/Mar/2026 18:23:05] "GET /login HTTP/1.1" 200 -
+116.52.141.27 - - [09/Mar/2026 20:50:48] "GET / HTTP/1.1" 200 -
+124.89.119.9 - - [09/Mar/2026 20:51:24] "GET / HTTP/1.1" 200 -
+121.29.84.70 - - [09/Mar/2026 20:51:38] "GET / HTTP/1.1" 200 -
+45.156.87.188 - - [09/Mar/2026 21:34:56] "GET /login HTTP/1.1" 200 -
+45.156.129.57 - - [09/Mar/2026 21:35:01] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('175.107.211.91', 23431)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/home/ubuntu/niche-site/editor.py", line 160, in do_POST
+    if not content.strip().lower().startswith("<!doctype html"):
+           ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+----------------------------------------
+157.230.184.28 - - [10/Mar/2026 00:58:56] "GET / HTTP/1.1" 200 -
+95.214.55.244 - - [10/Mar/2026 02:42:01] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x00ì\\x01\\x00\\x00è\\x03\\x03Ë·¼\\x04Ú%vV©1')
+95.214.55.244 - - [10/Mar/2026 02:42:01] "\x16\x03\x01\x00ì\x01\x00\x00è\x03\x03Ë·¼\x04Ú%vV©1" 400 -
+95.214.55.244 - - [10/Mar/2026 02:42:01] "GET /welcome HTTP/1.1" 200 -
+35.216.201.9 - - [10/Mar/2026 03:06:31] "GET / HTTP/1.1" 200 -
+35.216.144.195 - - [10/Mar/2026 03:09:43] code 400, message Bad request version ('À\\x13À')
+35.216.144.195 - - [10/Mar/2026 03:09:43] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03@@ 1\x87So\x13?Æ\x15ö\x00\x87<NH\x84&Â!\x1dÀ²åQöçZQ\x01- 8ëQÜ\x0dTïèïGÜÖ¿`¡ß\x84î[sª`Õ8À\x9eK\x12\x0dU\x82j\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" 400 -
+35.216.144.195 - - [10/Mar/2026 03:09:43] "GET / HTTP/1.1" 200 -
+35.216.144.195 - - [10/Mar/2026 03:09:44] "GET / HTTP/1.1" 200 -
+35.216.144.195 - - [10/Mar/2026 03:09:45] "GET /.git/config HTTP/1.1" 200 -
+35.216.144.195 - - [10/Mar/2026 03:09:46] "GET /server-status HTTP/1.1" 200 -
+35.216.144.195 - - [10/Mar/2026 03:09:46] "GET /config.json HTTP/1.1" 200 -
+35.216.144.195 - - [10/Mar/2026 03:09:47] "GET /.env HTTP/1.1" 200 -
+35.216.144.195 - - [10/Mar/2026 03:09:47] "GET /telescope/requests HTTP/1.1" 200 -
+35.216.144.195 - - [10/Mar/2026 03:09:48] "GET /info.php HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('167.94.138.55', 3746)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 404, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 707, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+167.94.138.55 - - [10/Mar/2026 05:44:10] "GET / HTTP/1.1" 200 -
+167.94.138.55 - - [10/Mar/2026 05:44:18] code 400, message Bad request version ('À\\x14À')
+167.94.138.55 - - [10/Mar/2026 05:44:18] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x030¢I\x1aKÓ¶ïEÁ>\x0f¸-ìZLàëTç¤×Ï\x97Z§\x0cçNBA \x0fî2O8j\x82M\x03(kÙz2\x81\x04y\x18|9T\x9b\x14Í&D.þ\x97<\x88Ç\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" 400 -
+167.94.138.55 - - [10/Mar/2026 05:44:19] "GET / HTTP/1.1" 200 -
+167.94.138.55 - - [10/Mar/2026 05:44:22] code 505, message Invalid HTTP version (2.0)
+167.94.138.55 - - [10/Mar/2026 05:44:22] "PRI * HTTP/2.0" 505 -
+167.94.138.55 - - [10/Mar/2026 05:44:27] "GET /favicon.ico HTTP/1.1" 200 -
+167.94.138.55 - - [10/Mar/2026 05:44:40] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x00î\\x01\\x00\\x00ê\\x03\\x03>\\x8fDrN\\x1a\\x82(·|ù7\\x00ãà?')
+167.94.138.55 - - [10/Mar/2026 05:44:40] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03>\x8fDrN\x1a\x82(·|ù7\x00ãà?" 400 -
+167.94.138.55 - - [10/Mar/2026 05:44:42] "GET /login HTTP/1.1" 200 -
+167.94.138.55 - - [10/Mar/2026 05:44:43] "GET /favicon.ico HTTP/1.1" 200 -
+167.94.138.55 - - [10/Mar/2026 05:44:46] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x00î\\x01\\x00\\x00ê\\x03\\x03Ë^ðLÉ\\x8e\\x1a´')
+167.94.138.55 - - [10/Mar/2026 05:44:46] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ë^ðLÉ\x8e\x1a´" 400 -
+167.94.138.55 - - [10/Mar/2026 05:44:48] "GET /3ob4t6tq8 HTTP/1.1" 200 -
+167.94.138.55 - - [10/Mar/2026 05:44:49] "GET /favicon.ico HTTP/1.1" 200 -
+165.232.43.198 - - [10/Mar/2026 08:44:27] "GET / HTTP/1.1" 200 -
+104.248.35.110 - - [10/Mar/2026 08:50:47] "GET / HTTP/1.1" 200 -
+104.248.35.110 - - [10/Mar/2026 08:50:48] "GET /favicon.ico HTTP/1.1" 200 -
+91.231.89.220 - - [10/Mar/2026 08:53:29] code 400, message Bad HTTP/0.9 request type ('\\x16\\x03\\x03\\x01§\\x01\\x00\\x01£\\x03\\x03ÞÓañí\\x10©|>\\x0eé\\x1b\\x93')
+91.231.89.220 - - [10/Mar/2026 08:53:29] "\x16\x03\x03\x01§\x01\x00\x01£\x03\x03ÞÓañí\x10©|>\x0eé\x1b\x93\x0b¹q" 400 -
+125.20.254.34 - - [10/Mar/2026 12:00:57] "GET / HTTP/1.1" 200 -
+100.24.4.116 - - [10/Mar/2026 12:54:33] "GET / HTTP/1.1" 200 -
+45.153.34.27 - - [10/Mar/2026 14:17:03] "GET /login HTTP/1.1" 200 -
+51.8.107.68 - - [10/Mar/2026 15:29:32] code 400, message Bad request syntax ('MGLNDD_13.236.232.192_8080')
+51.8.107.68 - - [10/Mar/2026 15:29:32] "MGLNDD_13.236.232.192_8080" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:22] code 400, message Bad request version ('À#À¬À®À+À')
+142.93.3.113 - - [10/Mar/2026 16:53:22] "\x16\x03\x03\x01§\x01\x00\x01£\x03\x03\x12\x83¨&Mã0Z\x99\x88\x18¹\x8c.IB\x04â}\x12<»#Î.\x9a\x04x\x85\x1aYñ \x02]\x07\x80\x96l\x9fk\x09\x12´\x85ìxú+ç\x93BÈû\x8f\x8cÊBm*SL;þº\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:22] code 400, message Bad request version ('À\\x9c\\x00<\\x00/\\x00')
+142.93.3.113 - - [10/Mar/2026 16:53:22] "\x16\x03\x03\x01§\x01\x00\x01£\x03\x03\x02-2\x10G"\x06;\x04ª\x85\x8b\x98úÆ\x14øMêTâ\x1bâHqÐÊ`÷G:\x1e ¿ó\x07\x8eKs3ï\x1cÊ¼\x81´9zñld]¿\x14\x16\x85°2ñ\\÷'Þm;\x00\x8a\x00\x05\x00\x04\x00\x07\x00À\x00\x84\x00º\x00A\x00\x9dÀ¡À\x9d\x00=\x005\x00\x9cÀ À\x9c\x00<\x00/\x00" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:23] code 400, message Bad request version ('\\x0ei\\x00FÀ\\x12À\\x07Ì\\x14\\x13\\x01\\x13\\x02Ì©ÀsÀrÀ,À¯À\\xadÀ$À')
+142.93.3.113 - - [10/Mar/2026 16:53:23] "\x16\x03\x03\x01X\x01\x00\x01T\x03\x03bIf\x84\x02|ª­\x00¯\x92$³þü:¤\x11ÏÖ¨á è\x97Á/$OrÊe !\x86)ÉÈgV\x11]\x91\x0f~\x01Ü6\x0c\x8dp\x96\x8b\x8b\x183ÞÏ µ¤\x9b\x0c\x0ei\x00FÀ\x12À\x07Ì\x14\x13\x01\x13\x02Ì©ÀsÀrÀ,À¯À­À$À" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:23] code 400, message Bad request version ("H×L¾s\\x12\\x9e¿\\x15Y=ú®¦\\x00DÀ\\x13À'À/À\\x14À(À0À`ÀaÀvÀwÌ¨\\x13\\x05\\x13\\x04\\x13\\x03Ì\\x13À\\x11\\x00")
+142.93.3.113 - - [10/Mar/2026 16:53:23] "\x16\x03\x03\x01J\x01\x00\x01F\x03\x03ºw\x07Â\x8a{ùt\x10-([gL\x07\x86æ\x89\x00Eè¦3y\x8d÷å®òí3¦ Jm0\x1a)Q\x9bH\x8atÁÝ³X³ì  H×L¾s\x12\x9e¿\x15Y=ú®¦\x00DÀ\x13À'À/À\x14À(À0À`ÀaÀvÀwÌ¨\x13\x05\x13\x04\x13\x03Ì\x13À\x11\x00" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:24] code 400, message Bad request version ("\\x84Æñ+ú\\x00\\x8cººÀ\\x12À\\x13À\\x07À'Ì\\x14À/\\x13\\x01À\\x14\\x13\\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ\\xadÌ¨À$\\x13\\x05À")
+142.93.3.113 - - [10/Mar/2026 16:53:24] "\x16\x03\x03\x01\x9b\x01\x00\x01\x97\x03\x03µxsIP\x11µèT×¦`te\x9fÜe¾\x10ÿÈn<\x15=%ìiÂÄÚ\x17 §ó\x8a\x80áÇð\x13zÜYÛÙd\x05ÄÂ\x13Ü`\x1fâ\x8fdy\x8c\x0b\x84Æñ+ú\x00\x8cººÀ\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ­Ì¨À$\x13\x05À" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:24] code 400, message Bad request version ('À#À¬À®À+À')
+142.93.3.113 - - [10/Mar/2026 16:53:24] "\x16\x03\x02\x01\x9c\x01\x00\x01\x98\x03\x02ø\x19kó+û_S&??!\x99T\x82üZ\x85³~\x01AÛÙñã=qz\x7f©\x9b ð¤ªHÍ¿\x18\x04#"\x81h\x86\x11+~È¬4O°M\x19 RÕ 9×³m \x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:24] code 400, message Bad request version ('À#À¬À®À+À')
+142.93.3.113 - - [10/Mar/2026 16:53:24] "\x16\x03\x01\x01©\x01\x00\x01¥\x03\x03PGÜÚË\x00ìê\x9f=êNü\x15\x18/Js\x92ß\x88\x1b÷­$6\x83\x0f¶\x90\x116 â\x93Î[¼BÈkÁ¢ë<Ød~Î\x93\x81=\x1eKR2y)á>9=\x94ø\x17\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:25] code 400, message Bad HTTP/0.9 request type ("\\x16\\x03\\x01\\x01©\\x01\\x00\\x01¥\\x03\\x03'·\\x9d\\x18")
+142.93.3.113 - - [10/Mar/2026 16:53:25] "\x16\x03\x01\x01©\x01\x00\x01¥\x03\x03'·\x9d\x18\x8550+\x927\\L­üw¿Ï­6\x8fBÒÄ" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:25] code 400, message Bad request syntax ('\\x16\\x03\\x01\\x01\\x9f\\x01\\x00\\x01\\x9b\\x03\\x03]Ë\\x98\\x9aÛ«à/\\x10Ø')
+142.93.3.113 - - [10/Mar/2026 16:53:25] "\x16\x03\x01\x01\x9f\x01\x00\x01\x9b\x03\x03]Ë\x98\x9aÛ«à/\x10Ø" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:26] code 400, message Bad request version ("\\x90Ìè\\x96Í\\x17a\\x17B\\x93\\\\B\\x11\\x00\\x8c::À\\x12À\\x13À\\x07À'Ì\\x14À/\\x13\\x01À\\x14\\x13\\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ\\xadÌ¨À$\\x13\\x05À")
+142.93.3.113 - - [10/Mar/2026 16:53:26] "\x16\x03\x01\x01¶\x01\x00\x01²\x03\x03Üd|w\x1d¶ð{óÕ¸¶®\x82?\x998p×è|ËH@ðäIü7>9Õ ñ\x01Ä¹'Ç©Y´dAó=ö\x15ñÜÙ\x0b\x90Ìè\x96Í\x17a\x17B\x93\\B\x11\x00\x8c::À\x12À\x13À\x07À'Ì\x14À/\x13\x01À\x14\x13\x02À(Ì©À0ÀsÀ`ÀrÀaÀ,ÀvÀ¯ÀwÀ­Ì¨À$\x13\x05À" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:26] code 400, message Bad request version ('À\\x13À')
+142.93.3.113 - - [10/Mar/2026 16:53:26] "\x16\x03\x01\x00ú\x01\x00\x00ö\x03\x03\x89òj÷åY(ÿPG\x96ÿ"µî\x9a\x87b\x0d\x83àõ\x00P&\x99ï'OyAû ;7×ô¸ü\x11\x00ó ðq¸³Ý;ê\x91×P\x0cI\x8d­\x9f\x19$\x19Ãr\x87´\x002À+À/À,À0Ì©Ì¨À\x09À\x13À" 400 -
+142.93.3.113 - - [10/Mar/2026 16:53:26] code 400, message Bad request version ('ÕØµyÞÕ$Ç\\x05u\\x00\\x06\\x13\\x01\\x13\\x02\\x13\\x03\\x01\\x00\\x00{\\x00\\x05\\x00\\x05\\x01\\x00\\x00\\x00\\x00\\x00')
+142.93.3.113 - - [10/Mar/2026 16:53:26] "\x16\x03\x01\x00Î\x01\x00\x00Ê\x03\x03P#\x99³»ì\x0dû\x12\x12?¥¡ùÐ3ì(\x96`ºÔÈ\x9a\x13\x10GBÛ\x88èÌ ÏÁ8Èx·\x01s0f\x09Ü¤\x11\x7fÊÖ E½t\x1eÕØµyÞÕ$Ç\x05u\x00\x06\x13\x01\x13\x02\x13\x03\x01\x00\x00{\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00" 400 -
+16.58.56.214 - - [10/Mar/2026 17:27:19] "GET / HTTP/1.1" 200 -
+16.58.56.214 - - [10/Mar/2026 17:27:28] "GET / HTTP/1.1" 200 -
+16.58.56.214 - - [10/Mar/2026 17:30:20] code 400, message Bad request syntax ('SSH-2.0-Go')
+16.58.56.214 - - [10/Mar/2026 17:30:20] "SSH-2.0-Go" 400 -
+16.58.56.214 - - [10/Mar/2026 17:31:06] code 400, message Bad request version ('À\\x14À')
+16.58.56.214 - - [10/Mar/2026 17:31:06] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ýÀ\x9aSEµ?\x8aÖõÛ\x89j8\x12ø¾BÓ\x1cg]óFaRìXl8_\x04\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" 400 -
+16.58.56.214 - - [10/Mar/2026 17:32:09] code 400, message Bad request version ('À\\x14À')
+16.58.56.214 - - [10/Mar/2026 17:32:09] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03FçöÓ\x1e2&&\x1dCFÄ\x1fo\x0eÀvîù\x13¼\x7f{\x84ø\x97±Çµ\x1c¾E\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" 400 -

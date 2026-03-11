@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checking Stock & Prices | PureCook</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f7fafc; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; }
+        .card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); max-width: 400px; width: 90%; }
+        .logo { font-size: 1.5rem; font-weight: 800; color: #2c7a7b; margin-bottom: 20px; display: block; text-decoration: none; }
+        .loader { border: 4px solid #f3f3f3; border-top: 4px solid #ed8936; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 20px auto; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        h1 { font-size: 1.2rem; color: #2d3748; margin-bottom: 10px; }
+        p { color: #718096; font-size: 0.9rem; margin-bottom: 30px; }
+        .btn { background: #ed8936; color: white; padding: 15px 30px; border-radius: 10px; text-decoration: none; font-weight: bold; display: block; transition: 0.2s; }
+        .btn:hover { background: #dd6b20; transform: translateY(-2px); }
+        .footer-text { font-size: 0.7rem; color: #cbd5e0; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <a href="/" class="logo">🌿 PureCook</a>
+        <div class="loader"></div>
+        <h1 id="status-text">Analyzing Stock...</h1>
+        <p id="description">We are checking the latest pricing and availability for your selected model.</p>
+        <a href="#" id="manual-btn" class="btn">Go to Store Now &rarr;</a>
+        <div class="footer-text">Secure Redirect by PureCook Labs</div>
+    </div>
+
+    <script>
+        // --- 核心配置：商品与链接的映射表 ---
+        const config = {
+            "fryer": {
+                name: "Non-Toxic Air Fryer",
+                link: "https://amzn.to/4s0tNcQ"
+            },
+            "glass-fryer": {
+                name: "Glass Oil-Less Fryer",
+                link: "https://amzn.to/4sD6BBi"
+            },
+            "kettle": {
+                name: "Glass Electric Kettle",
+                link: "https://amzn.to/4swZavh"
+            },
+            "pan": {
+                name: "Ceramic Non-Stick Pan",
+                link: "https://amzn.to/4s0tNcQ" // 以后你可以改这个
+            },
+            "default": {
+                name: "Premium Kitchen Gear",
+                link: "https://amzn.to/4s0tNcQ"
+            }
+        };
+
+        // 获取 URL 中的 item 参数
+        const urlParams = new URLSearchParams(window.location.search);
+        const itemKey = urlParams.get('item') || 'default';
+        const target = config[itemKey] || config['default'];
+
+        // 动态修改页面文字
+        document.getElementById('status-text').innerText = `Checking ${target.name} Stock...`;
+        document.getElementById('description').innerHTML = `We found the <strong>#1 Rated</strong> ${target.name} in stock. Redirecting to official store...`;
+        document.getElementById('manual-btn').href = target.link;
+
+        // 3秒后自动跳转
+        setTimeout(function() {
+            window.location.href = target.link;
+        }, 3000);
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>

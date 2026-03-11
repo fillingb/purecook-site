@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureCook | The Gold Standard in Non-Toxic Kitchen Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --forest: #1b3022; 
+            --bone: #f9f7f2; 
+            --sand: #d4a373; 
+            --matcha: #e9edc9;
+            --text: #2c362f;
+            --white: #ffffff;
+            --radius: 24px;
+        }
+
+        * { box-sizing: border-box; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            margin: 0; 
+            background-color: var(--bone); 
+            color: var(--text);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3 { font-family: 'Fraunces', serif; color: var(--forest); font-weight: 700; }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 30px; }
+
+        /* HEADER */
+        header { 
+            padding: 2rem 0; 
+            position: sticky; top: 0; z-index: 1000;
+            background: rgba(249, 247, 242, 0.8);
+            backdrop-filter: blur(20px);
+        }
+        .nav-inner { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Fraunces', serif; font-size: 1.8rem; text-decoration: none; color: var(--forest); display: flex; align-items: center; gap: 10px; }
+        .logo span { background: var(--forest); color: var(--bone); padding: 4px 10px; border-radius: 12px; font-size: 1rem; }
+        .nav-links a { text-decoration: none; color: var(--text); font-weight: 500; margin-left: 40px; font-size: 0.95rem; opacity: 0.7; }
+        .nav-links a:hover { opacity: 1; color: var(--sand); }
+
+        /* HERO - BENTO STYLE */
+        .hero { padding: 4rem 0; }
+        .bento-grid { display: grid; grid-template-columns: 1.5fr 1fr; grid-template-rows: auto auto; gap: 24px; }
+        
+        .bento-item { background: var(--white); border-radius: var(--radius); padding: 3rem; position: relative; overflow: hidden; border: 1px solid rgba(0,0,0,0.03); box-shadow: 0 10px 30px rgba(27, 48, 34, 0.03); }
+        .main-hero { grid-row: span 2; background: var(--forest); color: var(--bone); display: flex; flex-direction: column; justify-content: center; }
+        .main-hero h1 { color: var(--bone); font-size: 4rem; line-height: 1; margin: 0 0 1.5rem; letter-spacing: -2px; }
+        .main-hero p { font-size: 1.2rem; opacity: 0.8; max-width: 450px; margin-bottom: 2.5rem; }
+        
+        .cta-btn { 
+            background: var(--sand); color: var(--white); padding: 1.2rem 2.5rem; border-radius: 50px; 
+            text-decoration: none; font-weight: 600; display: inline-block; width: fit-content;
+        }
+        .cta-btn:hover { transform: scale(1.05); background: #c39262; }
+
+        .stat-card { background: var(--matcha); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+        .stat-card h2 { font-size: 3rem; margin: 0; }
+        .stat-card p { margin: 0; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; }
+
+        /* FEATURED GUIDES */
+        .section-header { display: flex; justify-content: space-between; align-items: flex-end; margin: 6rem 0 3rem; }
+        .section-header h2 { font-size: 2.5rem; margin: 0; }
+        
+        .guide-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .guide-card { text-decoration: none; color: inherit; }
+        .guide-image { width: 100%; height: 400px; border-radius: var(--radius); overflow: hidden; margin-bottom: 1.5rem; position: relative; }
+        .guide-image img { width: 100%; height: 100%; object-fit: cover; }
+        .guide-image::after { content: 'Read Guide →'; position: absolute; inset: 0; background: rgba(27, 48, 34, 0.6); display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; opacity: 0; }
+        .guide-card:hover .guide-image::after { opacity: 1; }
+        .guide-card:hover img { transform: scale(1.1); }
+        .guide-card h3 { font-size: 1.5rem; margin: 0 0 10px; line-height: 1.3; }
+        .guide-card p { margin: 0; color: #718096; font-size: 0.95rem; }
+
+        /* THE PURECOOK STANDARD */
+        .standard-section { background: var(--white); border-radius: 40px; padding: 6rem 0; margin: 6rem 0; }
+        .standard-flex { display: flex; gap: 60px; align-items: center; }
+        .standard-content { flex: 1; }
+        .standard-item { margin-bottom: 2rem; display: flex; gap: 20px; }
+        .standard-icon { width: 50px; height: 50px; background: var(--bone); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0; }
+
+        /* FOOTER */
+        footer { padding: 6rem 0 3rem; border-top: 1px solid rgba(0,0,0,0.05); }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 60px; margin-bottom: 4rem; }
+        .footer-logo { font-family: 'Fraunces', serif; font-size: 2rem; color: var(--forest); margin-bottom: 1.5rem; display: block; text-decoration: none; }
+        .footer-links h4 { text-transform: uppercase; font-size: 0.8rem; letter-spacing: 2px; color: #718096; margin-bottom: 1.5rem; }
+        .footer-links ul { list-style: none; padding: 0; }
+        .footer-links li { margin-bottom: 10px; }
+        .footer-links a { text-decoration: none; color: var(--text); font-weight: 500; opacity: 0.7; }
+        .footer-links a:hover { opacity: 1; color: var(--sand); }
+
+        @media (max-width: 900px) {
+            .bento-grid { grid-template-columns: 1fr; }
+            .guide-grid { grid-template-columns: 1fr; }
+            .standard-flex { flex-direction: column; }
+            .main-hero h1 { font-size: 2.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container nav-inner">
+        <a href="index.html" class="logo">🌿 PureCook <span>LAB</span></a>
+        <nav class="nav-links">
+            <a href="index.html">The Lab</a>
+            <a href="articles/best-non-toxic-air-fryers.html">Safety Guides</a>
+            <a href="about.html">Our Protocol</a>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <section class="hero">
+        <div class="bento-grid">
+            <div class="bento-item main-hero">
+                <h1>Cooking, <br>Unfiltered.</h1>
+                <p>We rigorously test kitchenware so you don't have to. No PTFE. No PFAS. Just pure, science-backed safety for your home.</p>
+                <a href="#guides" class="cta-btn">View Lab Reports</a>
+            </div>
+            <div class="bento-item stat-card">
+                <h2>48h</h2>
+                <p>Heat Stress Testing</p>
+            </div>
+            <div class="bento-item" style="background: var(--sand); color: white;">
+                <h3 style="color: white; margin-top: 0;">2026 Edition</h3>
+                <p style="opacity: 0.9;">Our annual Non-Toxic Gift Guide is now live. Discover the safest picks for your loved ones.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="guides">
+        <div class="section-header">
+            <h2>Latest Lab Reports</h2>
+            <p style="color: #718096;">Updated Weekly | Independent & Unbiased</p>
+        </div>
+        
+        <div class="guide-grid">
+            <a href="articles/best-non-toxic-air-fryers.html" class="guide-card">
+                <div class="guide-image"><img src="/assets/airfryer.webp" alt="Air Fryer"></div>
+                <h3>The 2026 Non-Toxic Air Fryer Report</h3>
+                <p>Top 5 picks that won't release polymer fumes.</p>
+            </a>
+            <a href="articles/best-glass-kettles.html" class="guide-card">
+                <div class="guide-image"><img src="/assets/kettle.webp" alt="Kettle"></div>
+                <h3>Stop Boiling Plastic: Glass Kettle Guide</h3>
+                <p>Zero-plastic contact models for pure tea.</p>
+            </a>
+            <a href="articles/ceramic-vs-granite-pans.html" class="guide-card">
+                <div class="guide-image"><img src="/assets/ceramic.jpeg" alt="Pans"></div>
+                <h3>Ceramic vs. Granite: Durability Test</h3>
+                <p>Which "Stone" pan actually lasts 2+ years?</p>
+            </a>
+        </div>
+    </section>
+
+    <section class="standard-section">
+        <div class="container standard-flex">
+            <div style="flex: 1;">
+                <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=600" style="width:100%; border-radius: var(--radius);" alt="Kitchen">
+            </div>
+            <div class="standard-content">
+                <h2>The PureCook Protocol</h2>
+                <p style="font-size: 1.1rem; color: #718096; margin-bottom: 3rem;">We don't just "review" products. We put them through a rigorous 3-stage safety verification process in our dedicated lab.</p>
+                
+                <div class="standard-item">
+                    <div class="standard-icon">🔬</div>
+                    <div>
+                        <h3>XRF Material Analysis</h3>
+                        <p>We use X-Ray Fluorescence to detect trace amounts of lead and cadmium in ceramic glazes.</p>
+                    </div>
+                </div>
+                <div class="standard-item">
+                    <div class="standard-icon">🌡️</div>
+                    <div>
+                        <h3>Thermal Degradation Test</h3>
+                        <p>Every pan is heated to 600°F in a sealed chamber to monitor for off-gassing.</p>
+                    </div>
+                </div>
+                <div class="standard-item">
+                    <div class="standard-icon">🛡️</div>
+                    <div>
+                        <h3>Zero-Sponsorship Policy</h3>
+                        <p>We never accept free products or paid placements. We buy everything at retail price.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <a href="index.html" class="footer-logo">🌿 PureCook</a>
+                <p style="opacity: 0.7; line-height: 1.6;">Empowering families to cook without fear. Our lab-tested guides are the independent voice in kitchen safety.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Lab Guides</h4>
+                <ul>
+                    <li><a href="articles/best-non-toxic-air-fryers.html">Air Fryers</a></li>
+                    <li><a href="articles/ceramic-vs-granite-pans.html">Cookware</a></li>
+                    <li><a href="articles/best-glass-kettles.html">Water Purity</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Organization</h4>
+                <ul>
+                    <li><a href="about.html">Our Protocol</a></li>
+                    <li><a href="#">Contact Lab</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <p style="font-size: 0.8rem; opacity: 0.5; text-align: center; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 2rem;">
+            &copy; 2026 PureCook Media Group. Science-First Cookware Reviews.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

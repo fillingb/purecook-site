@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Protocol | PureCook Lab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { 
+            --forest: #1b3022; 
+            --bone: #f9f7f2; 
+            --sand: #d4a373; 
+            --matcha: #e9edc9;
+            --text: #2c362f;
+            --white: #ffffff;
+            --radius: 32px;
+        }
+        body { font-family: 'Inter', sans-serif; line-height: 1.8; color: var(--text); background: var(--bone); margin: 0; }
+        
+        nav { background: rgba(249, 247, 242, 0.9); backdrop-filter: blur(20px); padding: 1.5rem 0; border-bottom: 1px solid rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
+        .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 30px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Fraunces', serif; font-size: 1.6rem; text-decoration: none; color: var(--forest); font-weight: 800; }
+        nav a { text-decoration: none; color: var(--text); font-weight: 600; margin-left: 30px; font-size: 0.9rem; opacity: 0.7; }
+
+        .hero { background: var(--forest); color: var(--bone); padding: 8rem 0; text-align: center; }
+        h1 { font-family: 'Fraunces', serif; font-size: 4.5rem; margin: 0; line-height: 1; letter-spacing: -3px; }
+
+        .content-card { max-width: 900px; margin: -4rem auto 100px; background: var(--white); padding: 60px; border-radius: var(--radius); box-shadow: 0 30px 60px rgba(27, 48, 34, 0.05); }
+        h2 { font-family: 'Fraunces', serif; font-size: 2.5rem; color: var(--forest); }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 40px; }
+        .step { padding: 30px; background: var(--bone); border-radius: 20px; }
+        .step-num { font-family: 'Fraunces', serif; font-size: 2rem; color: var(--sand); margin-bottom: 10px; display: block; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="index.html" class="logo">🌿 PureCook</a>
+            <div>
+                <a href="index.html">The Lab</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Our Protocol</h1>
+    </header>
+
+    <main class="content-card">
+        <h2>Science Over Marketing.</h2>
+        <p>At PureCook Lab, we don't believe in "sponsored" health. We believe in molecular reality. Every recommendation on this site is the result of a multi-stage verification process designed to keep your kitchen free from endocrine disruptors and forever chemicals.</p>
+
+        <div class="grid">
+            <div class="step">
+                <span class="step-num">01</span>
+                <h3>Anonymity</h3>
+                <p>We buy every product anonymously at full retail price. We do not accept PR samples or "review units."</p>
+            </div>
+            <div class="step">
+                <span class="step-num">02</span>
+                <h3>XRF Scanning</h3>
+                <p>We use portable X-Ray Fluorescence to verify that ceramic glazes are truly 100% lead and cadmium free.</p>
+            </div>
+            <div class="step">
+                <span class="step-num">03</span>
+                <h3>Off-Gassing</h3>
+                <p>Products are heated in a controlled thermal chamber while air sensors monitor for PTFE/PFAS particulates.</p>
+            </div>
+            <div class="step">
+                <span class="step-num">04</span>
+                <h3>Longevity</h3>
+                <p>A "safe" pan that only lasts a month is waste. We perform standardized mechanical abrasion tests.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer style="padding: 4rem 0; text-align: center; color: #718096; font-size: 0.85rem;">
+        <p>&copy; 2026 PureCook Media Group. Science-First Cookware Reviews.</p>
+    </footer>
+</body>
+</html>
